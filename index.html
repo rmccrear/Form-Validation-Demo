@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form action="index.html">
+        <label for="username">Username:</label>
+        <input  type="text" name="username" id="username" minlength="6" required>
+        <br>
+        <label for="email">Email:</label>
+        <input required type="email" name="email" id="email">
+        <input type="submit" value="Click">
+    </form>
 </body>
 </html>

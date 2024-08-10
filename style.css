@@ -1,0 +1,10 @@
+#username:valid,
+#email:valid
+{
+    background-color: aqua;
+}
+
+#username:invalid,
+#email:invalid {
+    background-color: lightpink;
+}
